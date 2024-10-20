@@ -1,0 +1,17 @@
+{
+  "name": "backendduniya",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node express.js",
+    "dev": "nodemon express.js"
+  },
+  "author": "sarthak",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0"
+  }
+}
